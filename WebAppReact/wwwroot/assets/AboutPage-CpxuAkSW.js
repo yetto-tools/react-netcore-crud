@@ -1,0 +1,2 @@
+import{b as a,u as i,j as s,e as l}from"./index-BSmjkZot.js";import{L as n}from"./LayoutBasic-DiaMKiku.js";const d=()=>{const{t:e}=a(),t=i(o=>o.isLogged())?l:n;return s.jsx(t,{children:s.jsxs("div",{className:"flex-1 w-full",children:[s.jsx("section",{className:"bg-white px-4 py-4 shadow rounded",children:s.jsx("h1",{className:"text-2xl font-semibold border-b pb-1 mb-4",children:e("about.title")})}),s.jsx("section",{className:"w-4/6 min-h-96 flex flex-col justify-around items-center mx-auto"})]})})};export{d as default};
+//# sourceMappingURL=AboutPage-CpxuAkSW.js.map

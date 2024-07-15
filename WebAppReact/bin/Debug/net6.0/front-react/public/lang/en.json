@@ -1,0 +1,85 @@
+{
+  "translation": {
+    "about": {
+      "title": "About",
+      "description": "programmer: Erick Rashón"
+    },
+    "app": {
+      "name": "AppDemo",
+      "title": "AppDemo",
+      "description": "",
+      "version": "version",
+      "numberVersion": "1.0.0"
+    },
+    "home": {
+      "title": "Home",
+      "welcome": "Welcome to the technical test application"
+    },
+    "categories": {
+      "title": "Categories",
+      "description": "",
+      "new": "New",
+      "save": "Save",
+      "change": "Modify",
+      "search": "Search",
+      "form": {
+        "field": {
+          "id": "id",
+          "name": "name",
+          "description": "description",
+          "state": "status",
+          "comment": "comment",
+          "created": "creation uid",
+          "updated": "modification uid"
+        }
+      }
+    },
+    "customers": {
+      "title": "Customers",
+      "description": ""
+    },
+    "sales": {
+      "title": "Sales",
+      "description": ""
+    },
+    "products": {
+      "title": "Products",
+      "description": ""
+    },
+    "users": {
+      "title": "Users",
+      "description": ""
+    },
+    "reports": {
+      "title": "Reports",
+      "description": "programmer: Erick Rashón"
+    },
+    "user_profile": {
+      "exit": {
+        "message": "Do you wish to exit the application?"
+      }
+    },
+    "action": {
+      "insert": "Record Created Successfully",
+      "update": "Record Modified Successfully",
+      "refreshData": "The List has been refreshed",
+      "new": "Create New Record",
+      "change": "Modify Record"
+    },
+    "register": {
+      "title": "Register User",
+      "form_register": "Registration Form",
+      "field": {
+        "btn_register": "Register",
+        "id": "id",
+        "user": "user",
+        "email": "email",
+        "password": "password",
+        "confirm_password": "confirm password",
+        "state": "status",
+        "uid_create": "created by",
+        "comment": "comment"
+      }
+    }
+  }
+}

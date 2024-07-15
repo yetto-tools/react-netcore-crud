@@ -1,0 +1,157 @@
+{
+  "translation": {
+    "about": {
+      "title": "Acerca de",
+      "description": "programador: Erick Rashón"
+    },
+    "app": {
+      "name": "AppDemo",
+      "title": "AppDemo",
+      "description": "",
+      "version": "versión",
+      "numberVersion": "1.0.0"
+    },
+    "login": {
+      "title": "Login",
+      "required_credentials": "Se necesita Usuario y Clave",
+      "welcome": "Bienvenido",
+      "form": {
+        "field": {
+          "username": "usuario",
+          "password": "clave"
+        },
+        "send": "Enviar"
+      }
+    },
+    "home": {
+      "title": "Inicio",
+      "welcome": "Bienvenido Aplicación prueba técnica"
+    },
+
+    "categories": {
+      "title": "Categorías",
+      "description": "",
+      "actions": "acciones",
+      "new": "nuevo",
+      "save": "guardar",
+      "change": "modificar",
+      "search": "buscar",
+      "form": {
+        "field": {
+          "id": "id",
+          "name": "nombre",
+          "description": "descripcion",
+          "state": "estado",
+          "comment": "comentario",
+          "created": "uid_creación",
+          "updated": "uid_modificación"
+        }
+      }
+    },
+    "customers": {
+      "title": "Clientes",
+      "description": "",
+      "actions": "acciones",
+      "new": "nuevo",
+      "save": "guardar",
+      "change": "modificar",
+      "search": "buscar",
+      "form": {
+        "field": {
+          "id": "id",
+          "name": "nombre",
+          "tax_id": "nit",
+          "address": "dirección",
+          "email": "correo",
+          "phone": "teléfono",
+          "state": "estado",
+          "comment": "comentario",
+          "created": "uid_creación",
+          "updated": "uid_modificación"
+        }
+      }
+    },
+    "sales": {
+      "title": "Ventas",
+      "description": "",
+      "actions": "acciones"
+    },
+    "products": {
+      "title": "Productos",
+      "description": "",
+      "actions": "acciones",
+      "new": "nuevo",
+      "save": "guardar",
+      "change": "modificar",
+      "search": "buscar",
+      "form": {
+        "field": {
+          "id": "id",
+          "name": "nombre",
+          "description": "descripcion",
+          "price": "precio",
+          "tax": "iva",
+          "cost": "costo",
+          "state": "estado",
+          "comment": "comentario",
+          "created": "uid_creación",
+          "updated": "uid_modificación"
+        }
+      }
+    },
+    "users": {
+      "title": "Usuarios",
+      "description": "",
+      "actions": "acciones",
+      "new": "nuevo",
+      "save": "guardar",
+      "change": "modificar",
+      "search": "buscar",
+      "form": {
+        "field": {
+          "id": "id",
+          "username": "usuario",
+          "password": "clave",
+          "state": "estado",
+          "email": "correo",
+          "comment": "comentario"
+        }
+      }
+    },
+    "reports": {
+      "title": "Reportes",
+      "description": "programador: Erick Rashón"
+    },
+    "user_profile": {
+      "exit": {
+        "message": "¿Desea salir de la aplicación?"
+      }
+    },
+    "action": {
+      "insert": "Registro Creado Correctamente",
+      "update": "Registro Modificado Correctamente",
+      "refreshData": "La Lista se ha refrescado",
+      "new": "Crear Nuevo Registro",
+      "change": "Modificar Registro"
+    },
+    "register": {
+      "title": "Registrar Usuario",
+      "form_register": "Formulario de Registro",
+      "field": {
+        "btn_register": "Registrar",
+        "id": "id",
+        "user": "usuario",
+        "email": "correo",
+        "password": "clave",
+        "confirm_password": "confirmar clave",
+        "state": "estado",
+        "uid_create": "creado por",
+        "comment": "comentario"
+      }
+    },
+    "state": {
+      "active": "activo",
+      "inactive": "inactivo"
+    }
+  }
+}

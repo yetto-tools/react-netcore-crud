@@ -1,0 +1,75 @@
+/* HTML: <div class="loader"></div> */
+.container-loader {
+  position: absolute;
+  transition: height 0.4s ease-in-out;
+  z-index: 999999;
+  width: 100dvw;
+  height: 100dvh;
+  background-color: #b6b6b60c;
+  backdrop-filter: blur(4px);
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 128px;
+  aspect-ratio: 1;
+  display: grid;
+  border: 8px solid #0000;
+  border-radius: 50%;
+  border-color: #0c93ae #0000;
+  animation: l16 1s infinite linear;
+  position: relative;
+  top: 45%;
+  left: 45%;
+}
+.loader::before,
+.loader::after {
+  content: "";
+  grid-area: 1/1;
+  margin: 6px;
+  border: inherit;
+  border-radius: 50%;
+}
+.loader::before {
+  border-color: #f03355 #0000;
+  animation: inherit;
+  animation-duration: 0.5s;
+  animation-direction: reverse;
+}
+.loader::after {
+  margin: 24px;
+}
+
+/* Asignar fade out solo cuando se requiera eliminar el loader */
+.loader.fade-out {
+  animation: fadeOut 0.5s ease-in forwards;
+}
+
+@keyframes l16 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.required::after {
+  content: " *";
+  color: red;
+}

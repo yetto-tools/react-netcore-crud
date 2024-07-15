@@ -1,0 +1,2 @@
+import{b as t,j as e,e as a}from"./index-DutmC7PB.js";const o=()=>{const{t:s}=t();return e.jsx(a,{children:e.jsxs("div",{className:"flex-1 w-full",children:[e.jsx("section",{className:"bg-white px-4 py-4",children:e.jsx("h1",{className:"text-2xl font-semibold border-b pb-1 mb-4 ",children:s("reports.title")})}),e.jsx("section",{className:"w-4/6 min-h-96 flex flex-col justify-around items-center mx-auto"})]})})};export{o as default};
+//# sourceMappingURL=ReportsPage-Dd8n43Vx.js.map
